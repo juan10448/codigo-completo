@@ -1,0 +1,9 @@
+Document: 10
+First name: juan
+Last name: a
+salary: 1200000
+worked days: 30
+tota icomes: 1200000
+transport: 117090
+pension: 48000
+healthe: 48000

@@ -1,0 +1,9 @@
+Document: 1000448
+First name: juan
+Last name: atencio
+salary: 1200000
+worked days: 20
+tota icomes: 800000
+transport: 78060
+pension: 32000
+healthe: 32000
