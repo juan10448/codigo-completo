@@ -14,7 +14,7 @@ namespace ConsoleApp1
         public void Data()
         {
             
-            Console.WriteLine("Insert Documen please: ");
+            Console.WriteLine("Insert Documen: ");
             data.Document1 = double.Parse(Console.ReadLine());
             Console.WriteLine("Inser first name: ");
             data.FirstName1 = Console.ReadLine();
@@ -23,10 +23,7 @@ namespace ConsoleApp1
             Console.WriteLine("insert Salary");
             data.Salary = double.Parse(Console.ReadLine());
             Console.WriteLine("insert worked days: ");
-            data.WorkedDays = double.Parse(Console.ReadLine());
-            Console.WriteLine("Total Icomes: ");
-
-            Console.WriteLine("Dato invalido");
+            data.WorkedDays = double.Parse(Console.ReadLine());  
             Console.ReadKey();
 
             if (data.Salary <= 2_000_000)
@@ -46,7 +43,7 @@ namespace ConsoleApp1
 
 
 
-        public void Impression()
+        public void Print()
         {
             Console.WriteLine("Document: " + data.Document1);
             Console.WriteLine("First name: " + data.FirstName1);
