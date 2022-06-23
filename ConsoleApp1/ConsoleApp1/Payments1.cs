@@ -32,7 +32,7 @@ namespace ConsoleApp1
                         {
                             Console.WriteLine($"employees {Payroll.Employee}");
                             Payments.Data();
-                            Payments.Impression();
+                            Payments.Print();
                             Payments.FileData();
 
                             break;
